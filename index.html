@@ -1,67 +1,272 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Zyad Wael Apps</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            line-height: 1.6;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1, h2 {
-            color: #1a73e8;
-        }
-        a {
-            color: #1a73e8;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        ul {
-            padding-left: 20px;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy and Terms of Use for applications and services published by Zyad Wael.">
+  <title>Legal | Zyad Wael Apps</title>
+  <style>
+
+    :root{color-scheme:light;--bg:#f5f7fb;--surface:#fff;--text:#202533;--muted:#626b7b;--accent:#2459c4;--border:#e3e7ef}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font:16px/1.75 Arial,"Noto Sans Arabic",sans-serif}
+    .container{width:min(900px,calc(100% - 32px));margin:32px auto;padding:clamp(22px,5vw,48px);background:var(--surface);border:1px solid var(--border);border-radius:16px;box-shadow:0 8px 30px #17233b0a}
+    header{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:28px}
+    h1{font-size:clamp(1.8rem,4vw,2.4rem);line-height:1.25;margin:0 0 8px} h2{font-size:1.25rem;margin:28px 0 8px;color:var(--accent)}
+    p,li{max-width:78ch} a{color:var(--accent);overflow-wrap:anywhere} .muted, .date{color:var(--muted);font-size:.94rem}
+    .lang{display:flex;gap:8px}.lang button{border:1px solid var(--border);background:#fff;color:var(--text);padding:9px 14px;border-radius:9px;cursor:pointer;font-weight:700}
+    .lang button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+    [hidden]{display:none!important} footer{border-top:1px solid var(--border);margin-top:34px;padding-top:18px;color:var(--muted);font-size:.9rem}
+    [dir="rtl"]{text-align:right} [dir="rtl"] ul{padding-right:24px;padding-left:0}
+    @media(max-width:520px){.container{margin:12px auto;width:calc(100% - 24px)}header{align-items:flex-start}}
+  
+    .page-nav{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 26px}
+    .page-nav a{display:inline-block;padding:9px 14px;border:1px solid var(--border);border-radius:9px;text-decoration:none;font-weight:700}
+    .page-nav a.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+    section.legal-section{scroll-margin-top:20px}
+    section.legal-section+section.legal-section{border-top:1px solid var(--border);margin-top:42px;padding-top:28px}
+  </style>
 </head>
 <body>
-    <div class="container">
+  <main class="container">
+    <header>
+      <div>
+        <h1 id="page-title">Legal Information</h1>
+        <div class="date"><span id="updated-label">Last updated:</span> <time datetime="2026-10-13">October 13, 2026</time></div>
+      </div>
+      <nav class="lang" aria-label="Language selection">
+        <button type="button" data-lang="en" aria-pressed="true">English</button>
+        <button type="button" data-lang="ar" aria-pressed="false">العربية</button>
+      </nav>
+    </header>
+
+    <nav class="page-nav" aria-label="Legal pages">
+      <a href="#privacy-policy" class="active" data-page="privacy">Privacy Policy</a>
+      <a href="#terms-of-use" data-page="terms">Terms of Use</a>
+    </nav>
+
+    <div id="content-en" lang="en">
+      <section id="privacy-policy" class="legal-section">
         <h1>Privacy Policy</h1>
-        <p>Last updated: August 3, 2026</p>
 
-        <h2>1. Introduction</h2>
-        <p>This Privacy Policy applies to all mobile applications, software, and services ("Apps") developed and published by <strong>Zyad Wael</strong> ("Developer", "we", "us", or "our").</p>
-        <p>Your privacy is important to us. This policy outlines our general practices regarding the collection, use, and protection of information across all Apps provided under the <strong>Zyad Wael</strong> developer account.</p>
+      <p>This Privacy Policy explains how <strong>Zyad Wael</strong> (“Developer,” “we,” “us,” or “our”) handles information in the mobile applications, software, and services we publish (collectively, the “Services”). A particular app may provide additional privacy notices or settings that explain its specific practices.</p>
 
-        <h2>2. Data Collection & Usage</h2>
-        <p>Our Apps primarily store data locally on your device to function properly. Personal identifiers, email addresses, or sensitive user information are only collected if explicitly required for specific features within a given App, and are never shared without your explicit consent.</p>
+      <h2>1. Information an app may handle</h2>
+      <p>The information involved depends on the app and the features you use. Depending on the Service, information may include content you enter, settings and preferences, information needed to provide a requested feature, and technical or diagnostic information such as app version, device type, crash reports, and performance data.</p>
+      <p>Some apps may store information locally on your device. Other features may process or store information using a server or a third-party provider. Check the relevant app’s screens and permissions to understand what applies to that app. We do not intentionally request sensitive personal information unless it is necessary for a stated feature.</p>
 
-        <h2>3. Third-Party Services</h2>
-        <p>Some of our Apps may utilize third-party SDKs or services (such as analytics, crash reporting, cloud databases, or advertising networks). These services may collect limited diagnostic or usage information to help improve app reliability and performance. Please refer to the privacy policies of any third-party providers integrated into specific Apps for further details.</p>
+      <h2>2. How information may be used</h2>
+      <p>Information may be used to provide and maintain features, save preferences, respond to support requests, diagnose errors, improve performance and security, prevent misuse, and meet applicable legal obligations. We aim to use information only for purposes relevant to the Service and its disclosed features.</p>
 
-        <h2>4. Children’s Privacy</h2>
-        <p>Our Apps are designed for general audiences. We do not knowingly collect personal information from children under 13. If you believe a child has provided us with personal data through any of our Apps, please contact us immediately so we can promptly delete it.</p>
+      <h2>3. Third-party services</h2>
+      <p>An app may use third-party services such as hosting, analytics, crash reporting, authentication, maps, payment processing, cloud databases, or advertising. Those providers may process information under their own terms and privacy policies. Where applicable, review the provider’s privacy notice and the disclosures shown in the relevant app. This general policy does not replace provider-specific disclosures.</p>
 
-        <h2>5. Data Security</h2>
-        <p>We implement reasonable security measures to safeguard your information stored locally or processed by our Apps. However, no method of electronic storage or transmission over the internet can be guaranteed to be 100% secure.</p>
+      <h2>4. Sharing and disclosure</h2>
+      <p>We do not sell personal information as a general business practice. Information may be processed by service providers to operate app features, disclosed when you direct us to do so, or disclosed when reasonably necessary to protect users, address security or fraud, comply with law, or respond to valid legal requests. The exact practices may vary by app and its integrations.</p>
 
-        <h2>6. Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy periodically to reflect changes in our practices or legal requirements. Updates will be posted on this page with a revised "Last updated" date.</p>
+      <h2>5. Data retention and security</h2>
+      <p>Retention depends on the app, the type of information, and the purpose for which it is used. Information stored only on your device may be removed when you delete the app or its data, subject to your device’s backup settings. Information held by a third-party service is also subject to that provider’s retention practices. We use reasonable measures intended to protect information, but no method of storage or transmission can be guaranteed to be completely secure.</p>
 
-        <h2>7. Contact Us</h2>
-        <p>If you have any questions, concerns, or inquiries regarding this Privacy Policy or any App developed by <strong>Zyad Wael</strong>, please contact us at:</p>
-        <p>Email: <a href="mailto:ziad.w.khedr@gmail.com">ziad.w.khedr@gmail.com</a></p>
+      <h2>6. Children’s privacy</h2>
+      <p>The Services are not intended to knowingly collect personal information from children in violation of applicable law. Some apps may be suitable for general audiences, while others may have different age requirements. If you believe a child has provided personal information in a way that raises a concern, contact us so we can review the request and take appropriate action.</p>
+
+      <h2>7. Your choices and rights</h2>
+      <p>Depending on your location and applicable law, you may have rights to request access to, correction of, or deletion of certain personal information. You can also manage app permissions through your device settings and, where available, use in-app controls to manage data or preferences. Contact us to make a privacy-related request. We may need to verify the request and may be unable to fulfill it where an exception applies.</p>
+
+      <h2>8. International processing</h2>
+      <p>If an app uses third-party infrastructure, information may be processed in a country different from your own. Any such processing is subject to the relevant provider’s practices and applicable legal requirements.</p>
+
+      <h2>9. Changes to this policy</h2>
+      <p>We may update this Privacy Policy from time to time. The revised version will be posted on this page with an updated date. If a particular app provides an additional privacy notice, that notice should also be reviewed.</p>
+
+      <h2>10. Contact</h2>
+      <p>For questions or privacy requests relating to apps published by Zyad Wael, contact: <a href="mailto:ziad.w.khedr@gmail.com">ziad.w.khedr@gmail.com</a>.</p>
+      <p class="muted">App-specific note: This is a general policy intended for use across multiple apps. Before publishing it for an individual app, verify that it accurately describes that app’s actual data practices, SDKs, permissions, and features.</p>
+    
+      </section>
+      <section id="terms-of-use" class="legal-section">
+        <h1>Terms of Use</h1>
+
+      <p>These Terms of Use (“Terms”) apply to the mobile applications, software, and services published by <strong>Zyad Wael</strong> (“Developer,” “we,” “us,” or “our”) that link to these Terms (collectively, the “Services”). By accessing or using a Service, you agree to these Terms to the extent permitted by applicable law. If you do not agree, do not use the Service.</p>
+
+      <h2>1. Eligibility and accounts</h2>
+      <p>You must be legally permitted to use the Service in your location. If a Service requires an account, you are responsible for providing accurate information, protecting your credentials, and activity performed through your account. Notify us if you believe your account has been accessed without authorization. Additional account rules may apply within a particular app.</p>
+
+      <h2>2. Permission to use the Services</h2>
+      <p>Subject to these Terms, we grant you a limited, personal, non-exclusive, non-transferable, and revocable permission to use the Service for its intended purpose. You may not copy, sell, sublicense, distribute, or commercially exploit the Service except where we expressly permit it or applicable law allows it.</p>
+
+      <h2>3. Acceptable use</h2>
+      <p>You agree not to misuse the Services. For example, you must not:</p>
+      <ul>
+        <li>Use a Service unlawfully or to violate another person’s rights.</li>
+        <li>Attempt to interfere with, disrupt, or gain unauthorized access to the Service or its systems.</li>
+        <li>Introduce malicious code, abuse an API, or bypass technical restrictions.</li>
+        <li>Reverse engineer or modify the Service except to the extent such restriction is prohibited by applicable law.</li>
+        <li>Copy or redistribute content in a way that infringes intellectual property or other rights.</li>
+      </ul>
+
+      <h2>4. Intellectual property and third-party content</h2>
+      <p>The Services and their original content, design, and branding are owned by us or our licensors and are protected by applicable laws, except for content identified as belonging to third parties or offered under separate terms. Third-party content, services, and links may be subject to their own licenses, permissions, terms, and privacy policies. Your use of such content must comply with those terms. Nothing in these Terms grants you ownership of third-party material.</p>
+
+      <h2>5. App features and availability</h2>
+      <p>Features may differ between apps, devices, regions, and versions. We may add, change, suspend, or discontinue features where reasonably necessary, subject to applicable law. We do not guarantee that a Service will always be available, uninterrupted, error-free, or compatible with every device.</p>
+
+      <h2>6. Information and results</h2>
+      <p>Unless an app expressly states otherwise, information and results provided by a Service are offered for general informational or functional purposes. You are responsible for assessing whether they are suitable for your circumstances. Do not rely on an app as a substitute for professional advice where qualified advice is needed.</p>
+
+      <h2>7. Purchases and subscriptions</h2>
+      <p>If a Service offers paid features, subscriptions, or in-app purchases, the price, billing period, renewal, cancellation, and refund conditions will be presented through the relevant purchase flow or platform. Platform-specific payment and refund rules may apply. These Terms do not override mandatory consumer rights.</p>
+
+      <h2>8. Privacy</h2>
+      <p>Your use of a Service may also be subject to our <a href="#privacy-policy">Privacy Policy</a> and any app-specific privacy notices. Please review them to understand how information may be handled.</p>
+
+      <h2>9. Disclaimers</h2>
+      <p>To the extent permitted by applicable law, the Services are provided “as is” and “as available,” without warranties of any kind, whether express or implied. We do not warrant that all information will be accurate, complete, current, or suitable for every purpose. Nothing in these Terms excludes a warranty or right that cannot legally be excluded.</p>
+
+      <h2>10. Limitation of liability</h2>
+      <p>To the extent permitted by applicable law, we will not be liable for indirect, incidental, special, consequential, or punitive losses, or loss of data, profits, or goodwill arising from use of or inability to use a Service. Nothing in these Terms limits liability where doing so is prohibited by law, including liability that cannot legally be excluded or restricted.</p>
+
+      <h2>11. Suspension or termination</h2>
+      <p>We may suspend or terminate access if we reasonably believe that you have materially breached these Terms, created a security risk, or used a Service unlawfully. Where appropriate and legally required, we will provide notice or an opportunity to address the issue. You may stop using a Service at any time.</p>
+
+      <h2>12. Changes to these Terms</h2>
+      <p>We may update these Terms from time to time. We will post the revised version here and update the date above. Continued use after changes take effect means you accept the revised Terms to the extent permitted by law. If you do not agree, stop using the Service.</p>
+
+      <h2>13. Governing law</h2>
+      <p>These Terms are subject to applicable laws. Any governing-law or dispute-resolution rules that apply will be determined in accordance with mandatory law and any valid terms presented for the specific Service. Nothing here removes consumer protections that cannot legally be waived.</p>
+
+      <h2>14. Contact</h2>
+      <p>For questions about these Terms, contact: <a href="mailto:ziad.w.khedr@gmail.com">ziad.w.khedr@gmail.com</a>.</p>
+      <p class="muted">General template notice: These Terms are intended for use across multiple apps. Review and adapt them before publishing if an app has accounts, subscriptions, user-generated content, regulated features, special age restrictions, or additional third-party content terms.</p>
+    
+      </section>
     </div>
+
+    <div id="content-ar" lang="ar" dir="rtl" hidden>
+      <section id="privacy-policy-ar" class="legal-section">
+        <h1>سياسة الخصوصية</h1>
+
+      <p>توضح سياسة الخصوصية هذه كيفية تعامل <strong>زياد وائل</strong> («المطوّر» أو «نحن») مع المعلومات في تطبيقات الهاتف والبرامج والخدمات التي ننشرها (ويُشار إليها مجتمعةً باسم «الخدمات»). قد يتضمن تطبيق معيّن إشعارات أو إعدادات خصوصية إضافية توضّح ممارساته الخاصة.</p>
+
+      <h2>1. المعلومات التي قد يتعامل معها التطبيق</h2>
+      <p>تعتمد المعلومات على التطبيق والميزات التي تستخدمها. وبحسب الخدمة، قد تشمل المعلومات المحتوى الذي تدخله، والإعدادات والتفضيلات، والمعلومات اللازمة لتقديم ميزة طلبتها، والبيانات التقنية أو التشخيصية مثل إصدار التطبيق ونوع الجهاز وتقارير الأعطال وبيانات الأداء.</p>
+      <p>قد تخزّن بعض التطبيقات المعلومات محليًا على جهازك، بينما قد تعالج ميزات أخرى المعلومات أو تخزّنها باستخدام خادم أو مزوّد خدمة خارجي. راجع شاشات التطبيق المعني وأذوناته لمعرفة ما ينطبق عليه. لا نطلب عمدًا معلومات شخصية حساسة إلا إذا كانت ضرورية لميزة موضّحة للمستخدم.</p>
+
+      <h2>2. كيفية استخدام المعلومات</h2>
+      <p>قد تُستخدم المعلومات لتقديم الميزات وصيانتها، وحفظ التفضيلات، والرد على طلبات الدعم، وتشخيص الأخطاء، وتحسين الأداء والأمان، ومنع إساءة الاستخدام، والوفاء بالالتزامات القانونية المعمول بها. ونسعى إلى استخدام المعلومات للأغراض المرتبطة بالخدمة وميزاتها الموضّحة فقط.</p>
+
+      <h2>3. خدمات الجهات الخارجية</h2>
+      <p>قد يستخدم التطبيق خدمات خارجية مثل الاستضافة أو التحليلات أو تقارير الأعطال أو المصادقة أو الخرائط أو معالجة المدفوعات أو قواعد البيانات السحابية أو الإعلانات. وقد تعالج هذه الجهات المعلومات وفقًا لشروطها وسياسات الخصوصية الخاصة بها. عند الاقتضاء، راجع سياسة المزوّد والإفصاحات المعروضة داخل التطبيق المعني. لا تحل هذه السياسة العامة محل الإفصاحات الخاصة بكل مزوّد.</p>
+
+      <h2>4. مشاركة المعلومات والإفصاح عنها</h2>
+      <p>لا نبيع المعلومات الشخصية بوصف ذلك ممارسة تجارية عامة. وقد تتم معالجة المعلومات بواسطة مزوّدي الخدمات لتشغيل ميزات التطبيق، أو الإفصاح عنها بناءً على توجيه منك، أو عند الضرورة المعقولة لحماية المستخدمين أو التعامل مع مسائل الأمان والاحتيال أو الامتثال للقانون أو الاستجابة للطلبات القانونية الصحيحة. وقد تختلف الممارسات الفعلية بحسب التطبيق والخدمات المدمجة فيه.</p>
+
+      <h2>5. الاحتفاظ بالبيانات وأمانها</h2>
+      <p>تعتمد مدة الاحتفاظ على التطبيق ونوع المعلومات والغرض من استخدامها. وقد تُحذف المعلومات المخزّنة على جهازك فقط عند حذف التطبيق أو بياناته، مع مراعاة إعدادات النسخ الاحتياطي على جهازك. وتخضع المعلومات الموجودة لدى خدمات خارجية أيضًا لسياسات الاحتفاظ لدى تلك الجهات. نتخذ تدابير معقولة تهدف إلى حماية المعلومات، لكن لا يمكن ضمان الأمان الكامل لأي وسيلة تخزين أو نقل.</p>
+
+      <h2>6. خصوصية الأطفال</h2>
+      <p>لا تهدف الخدمات إلى جمع معلومات شخصية من الأطفال عن علم بما يخالف القوانين المعمول بها. وقد تناسب بعض التطبيقات الجمهور العام، بينما قد تكون لتطبيقات أخرى متطلبات عمرية مختلفة. إذا كنت تعتقد أن طفلًا قد قدّم معلومات شخصية بطريقة تستدعي المراجعة، فتواصل معنا لنراجع الطلب ونتخذ الإجراء المناسب.</p>
+
+      <h2>7. خياراتك وحقوقك</h2>
+      <p>وفقًا لمكان إقامتك والقانون المعمول به، قد يحق لك طلب الوصول إلى بعض المعلومات الشخصية أو تصحيحها أو حذفها. ويمكنك أيضًا إدارة أذونات التطبيق من إعدادات جهازك، واستخدام عناصر التحكم داخل التطبيق لإدارة البيانات أو التفضيلات متى كانت متاحة. تواصل معنا لتقديم طلب متعلق بالخصوصية. قد نحتاج إلى التحقق من الطلب، وقد يتعذر تنفيذه إذا انطبق استثناء قانوني.</p>
+
+      <h2>8. معالجة المعلومات دوليًا</h2>
+      <p>إذا استخدم التطبيق بنية تحتية تابعة لجهات خارجية، فقد تُعالج المعلومات في بلد غير بلدك. وتخضع هذه المعالجة لممارسات المزوّد المعني والمتطلبات القانونية السارية.</p>
+
+      <h2>9. التعديلات على هذه السياسة</h2>
+      <p>قد نحدّث سياسة الخصوصية من وقت لآخر. وسيُنشر الإصدار المعدّل في هذه الصفحة مع تحديث تاريخ المراجعة. إذا كان التطبيق يوفّر إشعار خصوصية إضافيًا، فينبغي مراجعته أيضًا.</p>
+
+      <h2>10. التواصل</h2>
+      <p>للاستفسارات أو طلبات الخصوصية المتعلقة بالتطبيقات التي ينشرها زياد وائل، يُرجى التواصل عبر: <a href="mailto:ziad.w.khedr@gmail.com">ziad.w.khedr@gmail.com</a>.</p>
+      <p class="muted">ملاحظة خاصة بالتطبيق: هذه سياسة عامة مخصّصة للاستخدام عبر عدة تطبيقات. قبل نشرها لتطبيق بعينه، تحقّق من أنها تصف بدقة ممارسات جمع البيانات الفعلية والخدمات البرمجية والأذونات والميزات الخاصة بذلك التطبيق.</p>
+    
+      </section>
+      <section id="terms-of-use-ar" class="legal-section">
+        <h1>شروط الاستخدام</h1>
+
+      <p>تسري شروط الاستخدام هذه («الشروط») على تطبيقات الهاتف والبرامج والخدمات التي ينشرها <strong>زياد وائل</strong> («المطوّر» أو «نحن») والتي تحيل إلى هذه الشروط (ويُشار إليها مجتمعةً باسم «الخدمات»). باستخدامك أي خدمة أو وصولك إليها، فإنك توافق على هذه الشروط بالقدر الذي يسمح به القانون المعمول به. إذا لم توافق عليها، فلا تستخدم الخدمة.</p>
+
+      <h2>1. الأهلية والحسابات</h2>
+      <p>يجب أن يكون استخدامك للخدمة مسموحًا به قانونًا في مكان إقامتك. إذا كانت الخدمة تتطلب حسابًا، فأنت مسؤول عن تقديم معلومات صحيحة وحماية بيانات تسجيل الدخول والأنشطة التي تتم من خلال حسابك. أبلغنا إذا اعتقدت أن شخصًا ما وصل إلى حسابك دون إذن. وقد تُطبّق قواعد إضافية على الحسابات داخل تطبيق معيّن.</p>
+
+      <h2>2. الإذن باستخدام الخدمات</h2>
+      <p>مع الالتزام بهذه الشروط، نمنحك إذنًا محدودًا وشخصيًا وغير حصري وغير قابل للتحويل وقابلًا للإلغاء لاستخدام الخدمة للغرض المخصّصة له. لا يجوز لك نسخ الخدمة أو بيعها أو منح ترخيص فرعي لها أو توزيعها أو استغلالها تجاريًا، إلا إذا سمحنا بذلك صراحةً أو أجازه القانون المعمول به.</p>
+
+      <h2>3. الاستخدام المقبول</h2>
+      <p>توافق على عدم إساءة استخدام الخدمات. وعلى سبيل المثال، لا يجوز لك:</p>
+      <ul>
+        <li>استخدام الخدمة بصورة غير قانونية أو بما ينتهك حقوق الآخرين.</li>
+        <li>محاولة تعطيل الخدمة أو أنظمتها أو الوصول إليها دون تصريح.</li>
+        <li>إدخال برمجيات ضارة أو إساءة استخدام واجهات البرمجة أو تجاوز القيود التقنية.</li>
+        <li>إجراء هندسة عكسية للخدمة أو تعديلها، إلا بالقدر الذي يحظر فيه القانون المعمول به تقييد ذلك.</li>
+        <li>نسخ المحتوى أو إعادة توزيعه بطريقة تنتهك حقوق الملكية الفكرية أو غيرها من الحقوق.</li>
+      </ul>
+
+      <h2>4. الملكية الفكرية ومحتوى الجهات الخارجية</h2>
+      <p>نحن أو الجهات المرخِّصة لنا نملك الخدمات ومحتواها الأصلي وتصميمها وعلاماتها، وهي محمية بموجب القوانين المعمول بها، باستثناء المحتوى المحدد على أنه تابع لجهات خارجية أو المقدّم بموجب شروط منفصلة. وقد يخضع محتوى الجهات الخارجية وخدماتها وروابطها لتراخيص وأذونات وشروط وسياسات خصوصية خاصة بها. ويجب أن يتوافق استخدامك لهذا المحتوى مع تلك الشروط. ولا تمنحك هذه الشروط ملكية أي مواد تابعة لجهات خارجية.</p>
+
+      <h2>5. ميزات التطبيق وتوافر الخدمة</h2>
+      <p>قد تختلف الميزات بين التطبيقات والأجهزة والمناطق والإصدارات. وقد نضيف ميزات أو نغيّرها أو نعلّقها أو نوقفها عند الحاجة المعقولة، مع مراعاة القانون المعمول به. ولا نضمن أن تكون الخدمة متاحة دائمًا أو دون انقطاع أو أخطاء أو متوافقة مع جميع الأجهزة.</p>
+
+      <h2>6. المعلومات والنتائج</h2>
+      <p>ما لم يذكر التطبيق خلاف ذلك صراحةً، تُقدّم المعلومات والنتائج التي توفرها الخدمة لأغراض معلوماتية أو تشغيلية عامة. وأنت مسؤول عن تقييم مدى ملاءمتها لظروفك. لا تعتمد على التطبيق بدلًا من المشورة المهنية عندما تكون الاستعانة بمختص مؤهل ضرورية.</p>
+
+      <h2>7. المشتريات والاشتراكات</h2>
+      <p>إذا وفّرت الخدمة ميزات مدفوعة أو اشتراكات أو مشتريات داخل التطبيق، فسيتم عرض السعر وفترة الفوترة والتجديد والإلغاء وشروط الاسترداد ضمن عملية الشراء أو عبر المنصة المعنية. وقد تُطبّق قواعد الدفع والاسترداد الخاصة بالمنصة. ولا تلغي هذه الشروط حقوق المستهلك الإلزامية.</p>
+
+      <h2>8. الخصوصية</h2>
+      <p>قد يخضع استخدامك للخدمة أيضًا لـ <a href="#privacy-policy">سياسة الخصوصية</a> وأي إشعارات خصوصية خاصة بالتطبيق. يُرجى مراجعتها لفهم كيفية التعامل مع المعلومات.</p>
+
+      <h2>9. إخلاء المسؤولية عن الضمانات</h2>
+      <p>بالقدر الذي يسمح به القانون المعمول به، تُقدّم الخدمات «كما هي» و«حسب التوافر»، دون ضمانات من أي نوع، صريحة كانت أو ضمنية. ولا نضمن أن تكون جميع المعلومات دقيقة أو كاملة أو محدّثة أو مناسبة لكل غرض. ولا تستبعد هذه الشروط أي ضمان أو حق لا يجوز استبعاده قانونًا.</p>
+
+      <h2>10. حدود المسؤولية</h2>
+      <p>بالقدر الذي يسمح به القانون المعمول به، لا نتحمل المسؤولية عن الخسائر غير المباشرة أو العرضية أو الخاصة أو التبعية أو العقابية، ولا عن فقدان البيانات أو الأرباح أو السمعة الناتج عن استخدام الخدمة أو عدم القدرة على استخدامها. ولا تحدّ هذه الشروط من أي مسؤولية إذا كان القانون يمنع ذلك، بما في ذلك المسؤولية التي لا يجوز استبعادها أو تقييدها قانونًا.</p>
+
+      <h2>11. التعليق أو الإنهاء</h2>
+      <p>قد نعلّق الوصول إلى الخدمة أو ننهيه إذا اعتقدنا بصورة معقولة أنك خالفت هذه الشروط مخالفة جوهرية، أو تسببت في خطر أمني، أو استخدمت الخدمة بصورة غير قانونية. وعند الاقتضاء وحيثما يفرض القانون ذلك، سنقدّم إشعارًا أو فرصة لمعالجة المشكلة. ويمكنك التوقف عن استخدام الخدمة في أي وقت.</p>
+
+      <h2>12. التعديلات على الشروط</h2>
+      <p>قد نحدّث هذه الشروط من وقت لآخر. وسننشر النسخة المعدّلة في هذه الصفحة ونحدّث التاريخ أعلاه. ويعني استمرارك في استخدام الخدمة بعد سريان التعديلات قبولك للشروط المعدّلة بالقدر الذي يسمح به القانون. إذا لم توافق، فتوقف عن استخدام الخدمة.</p>
+
+      <h2>13. القانون المعمول به</h2>
+      <p>تخضع هذه الشروط للقوانين المعمول بها. ويُحدّد القانون الواجب التطبيق وأي قواعد لتسوية النزاعات وفقًا للقواعد القانونية الإلزامية وأي شروط صحيحة معروضة للخدمة المعنية. ولا ينتقص أي شيء هنا من حقوق المستهلك التي لا يجوز التنازل عنها قانونًا.</p>
+
+      <h2>14. التواصل</h2>
+      <p>للاستفسارات المتعلقة بهذه الشروط، يُرجى التواصل عبر: <a href="mailto:ziad.w.khedr@gmail.com">ziad.w.khedr@gmail.com</a>.</p>
+      <p class="muted">تنبيه بشأن القالب العام: أُعدّت هذه الشروط للاستخدام عبر عدة تطبيقات. راجعها وعدّلها قبل النشر إذا كان التطبيق يتضمن حسابات أو اشتراكات أو محتوى ينشئه المستخدمون أو ميزات خاضعة لتنظيم خاص أو قيودًا عمرية أو شروطًا إضافية لمحتوى الجهات الخارجية.</p>
+    
+      </section>
+    </div>
+
+    <footer>© <span id="year">2026</span> Zyad Wael. All rights reserved.</footer>
+  </main>
+  <script>
+    const buttons = document.querySelectorAll('[data-lang]');
+    const english = document.getElementById('content-en');
+    const arabic = document.getElementById('content-ar');
+    const title = document.getElementById('page-title');
+    const updated = document.getElementById('updated-label');
+    const pageLinks = document.querySelectorAll('[data-page]');
+    function setLanguage(lang) {
+      const isArabic = lang === 'ar';
+      document.documentElement.lang = isArabic ? 'ar' : 'en';
+      document.documentElement.dir = isArabic ? 'rtl' : 'ltr';
+      english.hidden = isArabic;
+      arabic.hidden = !isArabic;
+      title.textContent = isArabic ? 'المعلومات القانونية' : 'Legal Information';
+      updated.textContent = isArabic ? 'آخر تحديث:' : 'Last updated:';
+      buttons.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.lang === lang)));
+      pageLinks.forEach(link => {
+        link.textContent = isArabic
+          ? (link.dataset.page === 'privacy' ? 'سياسة الخصوصية' : 'شروط الاستخدام')
+          : (link.dataset.page === 'privacy' ? 'Privacy Policy' : 'Terms of Use');
+      });
+    }
+    pageLinks.forEach(link => link.addEventListener('click', () => {
+      pageLinks.forEach(item => item.classList.toggle('active', item === link));
+    }));
+    buttons.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.lang)));
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
